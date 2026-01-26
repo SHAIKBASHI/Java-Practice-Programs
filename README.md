@@ -1,38 +1,37 @@
-# Java-Practice-Programs
-Beginner Java programs – Java Basics,  Control Flow Statements
-ControlFlowStatements
+# Java Practice Programs
 
-ControlFlowStatements/ForLoopExample.java
-ControlFlowStatements/WhileExample.java
-ControlFlowStatements/WhileDoWhile.java
-ControlFlowStatements/DoWhileFactorial.java
-ControlFlowStatements/SwitchExample1.java
-ControlFlowStatements/SwitchExample2.java
-ControlFlowStatements/GradeChecker.java
+This repository contains beginner-level Java programs created while learning core Java concepts using Eclipse IDE.
 
-📂 JavaBasics
-JavaBasics/AgeCalculator.java
-JavaBasics/EligibilityChecker.java
-JavaBasics/ScannerExample.java
-JavaBasics/Circle.java
-JavaBasics/UnayExample.java
+The programs are organized into folders based on topics and are written to understand Java fundamentals through hands-on practice.
 
-📂 LogicPrograms
-LogicPrograms/Factorial.java
-LogicPrograms/Factorial1.java
-LogicPrograms/WhileFactorial.java
-LogicPrograms/Fibonnaci.java
-LogicPrograms/StrongNumber.java
+## Project Structure
 
-📂 CalculatorPrograms
-CalculatorPrograms/Arthmetic.java
-CalculatorPrograms/CalculatorV1.java
-CalculatorPrograms/SwitchCalculator.java
+- ControlFlowStatements  
+  Contains programs related to loops and control flow concepts such as:
+  - for loop
+  - while loop
+  - do-while loop
+  - switch case
+  - basic logical programs
 
+- JavaBasics  
+  Contains programs related to basic Java concepts such as:
+  - variables and data types
+  - user input using Scanner
+  - simple arithmetic operations
+  - beginner-level calculations
 
-Java-Practice-Programs
-├── ControlFlowStatements
-├── JavaBasics
-├── LogicPrograms
-├── CalculatorPrograms
-└── README.md
+## Topics Covered
+- Java Basics
+- Control Flow Statements
+- Loops (for, while, do-while)
+- Switch case programs
+- Basic logical programs
+
+## Tools Used
+- Java
+- Eclipse IDE
+- GitHub
+
+This repository is part of my learning journey and will be updated as I continue practicing and improving my Java skills.
+
