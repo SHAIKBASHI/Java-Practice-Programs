@@ -1,0 +1,95 @@
+File name:Account.java
+
+
+package com.banking.version2;
+
+public class Account {
+private String account_number;
+ private String name;
+ private double balance;
+private  final static double MINIMUM_BALANCE=1000.00;
+
+
+public String getAccount_number() {
+	return account_number;
+}
+public void setAccount_number(String account_number) {
+	if(account_number==null) {
+		System.out.println("invalid Account number ");
+		System.exit(0);
+	}
+	else {
+		this.account_number=account_number;
+	}
+	this.account_number = account_number;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	if(name==null) {
+		System.out.println("invalid name ");
+		System.exit(0);
+	}
+	else {
+		this.name=name;
+	}
+}
+public double getBalance() {
+	return balance;
+}
+public void setBalance(double balance) {
+	if(balance <= 0) {
+		System.out.println("invalid balance ");
+		System.exit(0);
+	}
+	else {
+		this.balance=balance;
+	}
+}
+public void deposit(double amount) {
+	balance=balance+amount;
+	System.out.println("Amount deposit Sucessfully.....");
+	System.out.println("Available balance is "+balance);
+}
+public void withdraw(double amount) {
+	if(balance-amount>=1000.00) {
+		balance=balance-amount;
+	System.out.println("Amount withdraw sucessfully "+balance);
+	System.out.println("Available balance is "+balance);
+	}
+}
+}
+
+
+File Name:Test.java
+
+package com.banking.version2;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Account obj1=new Account();
+		
+//		obj1.setAccount_number("044101");
+//		obj1.setName("bashi");
+//		obj1.setBalance(-45.00);
+		
+//		obj1.setAccount_number("044101");
+//		obj1.setName("bashi");
+//		obj1.setBalance(null);
+//		
+//		obj1.setAccount_number("044101");
+//		obj1.setName(null);
+//		obj1.setBalance(45.00);
+		
+		obj1.setAccount_number("044101");
+		obj1.setName("bashi");
+		obj1.setBalance(4005.00);
+		System.out.println(obj1.getAccount_number()+" "+obj1.getName()+" "+obj1.getBalance());
+		
+//		obj1.deposit(25000);
+//		obj1.withdraw(22500);
+	}
+
+}
