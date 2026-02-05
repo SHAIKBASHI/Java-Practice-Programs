@@ -1,37 +1,177 @@
-# Java Practice Programs
+Java Practice Programs
 
-This repository contains beginner-level Java programs created while learning core Java concepts using Eclipse IDE.
+This repository contains beginner-level Java programs created while learning Core Java using the Eclipse IDE.
+All programs are written for hands-on practice to understand Java fundamentals step by step.
 
-The programs are organized into folders based on topics and are written to understand Java fundamentals through hands-on practice.
+The code is organized into folders based on topics, making it easy to learn and revise individual concepts.
 
-## Project Structure
+📂 Project Structure
+🔹 Abstraction
 
-- ControlFlowStatements  
-  Contains programs related to loops and control flow concepts such as:
-  - for loop
-  - while loop
-  - do-while loop
-  - switch case
-  - basic logical programs
+Version1
 
-- JavaBasics  
-  Contains programs related to basic Java concepts such as:
-  - variables and data types
-  - user input using Scanner
-  - simple arithmetic operations
-  - beginner-level calculations
+Version2
 
-## Topics Covered
-- Java Basics
-- Control Flow Statements
-- Loops (for, while, do-while)
-- Switch case programs
-- Basic logical programs
+Version3
 
-## Tools Used
-- Java
-- Eclipse IDE
-- GitHub
+Version4
 
-This repository is part of my learning journey and will be updated as I continue practicing and improving my Java skills.
+🔹 Arrays
+
+MinMax.java
+
+SingleDimenArray.java
+
+SingleDimenArray2.java
+
+SingleDimenArray4.java
+
+SingleDimenArray5.java
+
+SingleDimenArray6.java
+
+TwoDimeArray.java
+
+🔹 ControlFlowStatements
+
+Arithmetic.java
+
+CalculatorV1.java
+
+ContinueExample.java
+
+DoWhileFactorial.java
+
+EligibilityChecker.java
+
+Factorial.java
+
+Factorial1.java
+
+Fibonacci.java
+
+ForLoopExample.java
+
+GradeChecker.java
+
+StrongNumber.java
+
+SwitchCalculator.java
+
+SwitchExample1.java
+
+SwitchExample2.java
+
+WhileDoWhile.java
+
+WhileExample.java
+
+WhileFactorial.java
+
+🔹 ExceptionHandling
+
+customversion1
+
+customversion2
+
+customversion3
+
+customversion4
+
+customversion5
+
+version1
+
+version2
+
+version3
+
+🔹 Inheritance
+
+object
+
+version1
+
+version2
+
+version3
+
+version4
+
+version5
+
+version6
+
+version7
+
+🔹 Interfaces
+
+version1
+
+version2
+
+version3
+
+version4
+
+version5
+
+version6
+
+version7
+
+🔹 JavaBasics
+
+AgeCalculator.java
+
+Circle.java
+
+ScannerExample.java
+
+UnaryExample.java
+
+🔹 OOP Programming
+
+Constructors
+
+Banking
+
+📘 Topics Covered
+
+Java Basics
+
+Control Flow Statements
+
+Loops (for, while, do-while)
+
+Switch Case Programs
+
+Arrays (1D & 2D)
+
+Object-Oriented Programming (OOP)
+
+Inheritance
+
+Interfaces
+
+Abstraction
+
+Exception Handling
+
+Basic Logical Programs
+
+🛠 Tools Used
+
+Java
+
+Eclipse IDE
+
+GitHub
+
+🚀 About This Repository
+
+This repository is part of my Java learning journey.
+I created these programs to strengthen my understanding of core Java concepts through practice.
+
+I will continue updating this repository as I learn and improve my Java skills.
 
