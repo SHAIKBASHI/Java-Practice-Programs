@@ -6,166 +6,116 @@ All programs are written for hands-on practice to understand Java fundamentals s
 The code is organized into folders based on topics, making it easy to learn and revise individual concepts.
 
 📂 Project Structure
+
 🔹 Abstraction
 
-Version1
-
-Version2
-
-Version3
-
-Version4
+-Version1
+-Version2
+-Version3
+-Version4
 
 🔹 Arrays
 
-MinMax.java
-
-SingleDimenArray.java
-
-SingleDimenArray2.java
-
-SingleDimenArray4.java
-
-SingleDimenArray5.java
-
-SingleDimenArray6.java
-
-TwoDimeArray.java
+-MinMax.java
+-SingleDimenArray.java
+-SingleDimenArray2.java
+-SingleDimenArray4.java
+-SingleDimenArray5.java
+-SingleDimenArray6.java
+-TwoDimeArray.java
 
 🔹 ControlFlowStatements
 
-Arithmetic.java
-
-CalculatorV1.java
-
-ContinueExample.java
-
-DoWhileFactorial.java
-
-EligibilityChecker.java
-
-Factorial.java
-
-Factorial1.java
-
-Fibonacci.java
-
-ForLoopExample.java
-
-GradeChecker.java
-
-StrongNumber.java
-
-SwitchCalculator.java
-
-SwitchExample1.java
-
-SwitchExample2.java
-
-WhileDoWhile.java
-
-WhileExample.java
-
-WhileFactorial.java
+-Arithmetic.java
+-CalculatorV1.java
+-ContinueExample.java
+-DoWhileFactorial.java
+-EligibilityChecker.java
+-Factorial.java
+-Factorial1.java
+-Fibonacci.java
+-ForLoopExample.java
+-GradeChecker.java
+-StrongNumber.java
+-SwitchCalculator.java
+-SwitchExample1.java
+-SwitchExample2.java
+-WhileDoWhile.java
+-WhileExample.java
+-WhileFactorial.java
 
 🔹 ExceptionHandling
 
-customversion1
-
-customversion2
-
-customversion3
-
-customversion4
-
-customversion5
-
-version1
-
-version2
-
-version3
+-customversion1
+-customversion2
+-customversion3
+-customversion4
+-customversion5
+-version1
+-version2
+-version3
 
 🔹 Inheritance
 
-object
-
-version1
-
-version2
-
-version3
-
-version4
-
-version5
-
-version6
-
-version7
+-object
+-version1
+-version2
+-version3
+-version4
+-version5
+-version6
+-version7
 
 🔹 Interfaces
 
-version1
-
-version2
-
-version3
-
-version4
-
-version5
-
-version6
-
-version7
+-version1
+-version2
+-version3
+-version4
+-version5
+-version6
+-version7
 
 🔹 JavaBasics
 
-AgeCalculator.java
-
-Circle.java
-
-ScannerExample.java
-
-UnaryExample.java
+-AgeCalculator.java
+-Circle.java
+-ScannerExample.java
+-UnaryExample.java
 
 🔹 OOP Programming
 
-Constructors
-
-Banking
+-Constructors
+-Banking
 
 📘 Topics Covered
 
-Java Basics
+-Java Basics
 
-Control Flow Statements
+-Control Flow Statements
 
-Loops (for, while, do-while)
+-Loops (for, while, do-while)
 
-Switch Case Programs
+-Switch Case Programs
 
-Arrays (1D & 2D)
+-Arrays (1D & 2D)
 
-Object-Oriented Programming (OOP)
+-Object-Oriented Programming (OOP)
 
-Inheritance
+-Inheritance
 
-Interfaces
+-Interfaces
 
-Abstraction
+-Abstraction
 
-Exception Handling
+-Exception Handling
 
-Basic Logical Programs
+-Basic Logical Programs
 
 🛠 Tools Used
 
 Java
-
 Eclipse IDE
-
 GitHub
 
 🚀 About This Repository
