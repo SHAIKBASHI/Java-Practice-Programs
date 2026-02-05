@@ -1,177 +1,178 @@
-Java Practice Programs
+Java Practice Programs 
+This repository contains beginner-level Java programs created while learning Core Java using the Eclipse IDE. 
+All programs are written for hands-on practice to understand Java fundamentals step by step. 
+The code is organized into folders based on topics, making it easy to learn and revise individual concepts. 
+📂 Project Structure 
 
-This repository contains beginner-level Java programs created while learning Core Java using the Eclipse IDE.
-All programs are written for hands-on practice to understand Java fundamentals step by step.
-
-The code is organized into folders based on topics, making it easy to learn, practice, and revise individual concepts.
-
-📂 Project Structure
 🔹 Abstraction
 
-Version1
+-Version1 
 
-Version2
+-Version2 
 
-Version3
+-Version3
 
-Version4
+-Version4 
 
 🔹 Arrays
 
-MinMax.java
 
-SingleDimenArray.java
+-MinMax.java 
 
-SingleDimenArray2.java
+-SingleDimenArray.java
 
-SingleDimenArray4.java
+-SingleDimenArray2.java
 
-SingleDimenArray5.java
+-SingleDimenArray4.java
 
-SingleDimenArray6.java
+-SingleDimenArray5.java 
 
-TwoDimeArray.java
+-SingleDimenArray6.java 
+
+-TwoDimeArray.java
+
 
 🔹 ControlFlowStatements
 
-Arithmetic.java
+-Arithmetic.java
 
-CalculatorV1.java
+-CalculatorV1.java
 
-ContinueExample.java
+-ContinueExample.java
 
-DoWhileFactorial.java
+-DoWhileFactorial.java
 
-EligibilityChecker.java
+-EligibilityChecker.java
 
-Factorial.java
+-Factorial.java
 
-Factorial1.java
+-Factorial1.java 
 
-Fibonacci.java
+-Fibonacci.java 
 
-ForLoopExample.java
+-ForLoopExample.java
 
-GradeChecker.java
+-GradeChecker.java
 
-StrongNumber.java
+-StrongNumber.java
 
-SwitchCalculator.java
+-SwitchCalculator.java 
 
-SwitchExample1.java
+-SwitchExample1.java 
 
-SwitchExample2.java
+-SwitchExample2.java 
 
-WhileDoWhile.java
+-WhileDoWhile.java
 
-WhileExample.java
+-WhileExample.java
 
-WhileFactorial.java
+-WhileFactorial.java 
 
-🔹 ExceptionHandling
 
-customversion1
+🔹 ExceptionHandling 
 
-customversion2
+-customversion1
 
-customversion3
+-customversion2 
 
-customversion4
+-customversion3
 
-customversion5
+-customversion4 
 
-version1
+-customversion5
 
-version2
+-version1 
 
-version3
+-version2 
+
+-version3
+
 
 🔹 Inheritance
 
-object
+-object 
 
-version1
+-version1 
 
-version2
+-version2 
 
-version3
+-version3 
 
-version4
+-version4 
 
-version5
+-version5 
 
-version6
+-version6 
 
-version7
+-version7 
 
-🔹 Interfaces
 
-version1
+🔹 Interfaces 
 
-version2
+-version1 
 
-version3
+-version2 
 
-version4
+-version3 
 
-version5
+-version4 
 
-version6
+-version5 
 
-version7
+-version6 
 
-🔹 JavaBasics
+-version7 
 
-AgeCalculator.java
 
-Circle.java
+🔹 JavaBasics 
 
-ScannerExample.java
+-AgeCalculator.java 
 
-UnaryExample.java
+-Circle.java 
 
-🔹 OOP Programming
+-ScannerExample.java 
 
-Constructors
+-UnaryExample.java
 
-Banking
 
-📘 Topics Covered
+🔹 OOP Programming 
 
-Java Basics
+-Constructors 
 
-Control Flow Statements
+-Banking
 
-Loops (for, while, do-while)
+📘 Topics Covered 
 
-Switch Case Programs
+-Java Basics 
 
-Arrays (1D & 2D)
+-Control Flow Statements 
 
-Object-Oriented Programming (OOP)
+-Loops (for, while, do-while) 
 
-Inheritance
+-Switch Case Programs
 
-Interfaces
+-Arrays (1D & 2D) 
 
-Abstraction
+-Object-Oriented Programming (OOP) 
 
-Exception Handling
+-Inheritance 
 
-Basic Logical Programs
+-Interfaces 
 
-🛠 Tools Used
+-Abstraction
 
-Java
+-Exception Handling 
 
-Eclipse IDE
+-Basic Logical Programs 
 
+🛠 Tools Used 
+
+Java Eclipse IDE
 GitHub
 
-🚀 About This Repository
-
+🚀 About This Repository 
 This repository is part of my Java learning journey.
-I created these programs to strengthen my understanding of Core Java concepts through regular practice.
-
-I will continue updating this repository as I learn new concepts and improve my Java skills.
+I created these programs to strengthen my understanding of core Java concepts through practice.
+I will continue updating this repository as I learn and improve my Java skills. 
+i want this structure manner properlly
 
