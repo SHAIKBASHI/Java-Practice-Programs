@@ -5,7 +5,239 @@ import java.util.Scanner;
 public class printAnand {
 	
 	
-	
+
+			/////////////////////////////////////////////////////////////////////////////////////////////////
+				void printRow(char ch, int i) {
+
+			        for(int j=0;j<=6;j++) {
+
+			        switch(ch) {
+
+			            case 'A': if(i==3 || ((j==0 || j==6)&&i!=0) || (i==0 && j!=0 && j!=6)) {
+							System.out.print("*");
+						}
+						else {
+							System.out.print(" ");
+						}; break;
+			            case 'B':  if(j == 0 || 
+						           (i == 0 && j != 6) || 
+						           (i == 3 && j != 6) || 
+						           (i == 6 && j != 6) || 
+						           (j == 6 && (i != 0 && i != 3 && i != 6))) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'C': if(j==0||i==0||i==6) {
+				            System.out.print("*");
+				        }
+			        else {
+			            System.out.print(" ");
+			        }; break;
+			            case 'D': if(j==0||(j==6&& i!=0 && i!=6)||((i==0 || i==6)&& j!=6)) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'E': if(j==0 ||i==0 || i==6 || i==3 &&( j!=6 && i!=6 && j!=6)) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'F':  if(j == 0 || 
+						           (i == 0 && j != 6) || 
+						           (i == 3 && j != 4&&  j!=5&& j!=6) ) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'H': if((j == 0 || j == 6  )|| i == 3) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'G':if(i == 0 
+					               || i == 6 
+					               || j == 0 
+					               || (i == 3 && j >= 3) 
+					               || (j == 6 && i >= 3)) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'I':  if((i == 0 || i== 6)|| j==3) 
+						 {
+							System.out.print("*");
+						} else 
+						  {
+							System.out.print(" ");
+						
+					      }; break;
+			            case 'J':  if((i == 0 || j==3||i==6 )&&(j!=4 &&j!=5 &&j!=6 || i==0) )
+						 {
+							System.out.print("*");
+						} else 
+						  {
+							System.out.print(" ");
+						
+					      }; break;
+			            case 'K':  if(j== 0  || i+j==3|| i-j==3)
+						 {
+							System.out.print("*");
+						} else 
+						  {
+							System.out.print(" ");
+						
+					      }; break;
+			            case 'L': 
+							 if(j== 0  ||i==6)
+							 {
+								System.out.print("*");
+							} else 
+							  {
+								System.out.print(" ");
+							
+						      }; break;
+			            case 'M': if(j== 0  ||j==6|| i==j &&i<=3 ||i+j==6 &&i<=3)
+						 {
+							System.out.print("*");
+						} else 
+						  {
+							System.out.print(" ");
+						
+					      }; break;
+			            case 'N':if(j==0||j==6||i==j) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'O': if(j==0||i==6||i==0||j==6) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'P': if(j == 0 || (i==0)||
+					            (i==3)||
+					          
+					          
+					           (j == 6 && ( i != 4 && i != 5 && i != 6)))  {
+						System.out.print("*");
+					}else {
+						System.out.print(" ");
+					
+				}; break;
+			            case 'Q': if(j == 0 || j == 6 || i == 0 || i == 6 || (i == j && i >= 4)) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'R': if(j == 0 
+						           || (i == 0 && j != 6) 
+						           || (i == 3 && j != 6) 
+						           || (j == 6 && i != 0 && i != 3 && i < 3) 
+						           || (i == j && i >= 3))  {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'S':if(i == 0 || i == 3 || i == 6 || (j == 0 && i < 3) || (j == 6 && i > 3)) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'T':  if((i == 0 )|| j==3) 
+						 {
+							System.out.print("*");
+						} else 
+						  {
+							System.out.print(" ");
+						
+					      }; break;
+			            case 'U':if((j == 0 || j == 6  )|| i == 6) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'V': if((i == j && i <= 3) || (i + j == 6 && i <= 3)) {
+				            System.out.print("*");
+				        }
+				        else if(i == 3 && j == 3) {
+				            System.out.print("*");
+				        }
+				        else {
+				            System.out.print(" ");
+				        }; break;
+			            case 'W':  if(j == 0 || j == 6 || (i >= 3 && i == j) || (i + j == 6 && i >= 3)) {
+				            System.out.print("*");
+				        }
+			        else {
+			            System.out.print(" ");
+			        }; break;
+			            case 'X':if(i+j==6||i==j) {
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'Y':if((i == j && i <= 3) || (i + j == 6 && i <= 3) || (j == 3 && i >= 3)) {
+				            System.out.print("*");
+				        } 
+				       
+                       else {
+							System.out.print(" ");
+						
+					}; break;
+			            case 'Z':  if(i==0||i==6||j+i==6) {
+				            System.out.print("*");
+				        }
+			        else {
+			            System.out.print(" ");
+			        }; break;
+
+			            default:
+			                System.out.println("Character not supported");
+			        }
+			        
+			        }
+			        System.out.print("  ");
+
+			   
+			}
+			
+				public static void main(String[] args) {	
+					Scanner sc = new Scanner(System.in);
+				    printAnand obj = new printAnand();
+
+				    System.out.println("Enter your name:");
+				    String name = sc.nextLine().toUpperCase();
+
+				    for(int i=0;i<=6;i++) {
+
+				        for(char ch : name.toCharArray()) {
+
+				            obj.printRow(ch, i);
+
+				        }
+
+				        System.out.println();
+				    }
+
+				    sc.close();
+				}
+				}
+				    	
 //	 void printU() {
 //			//printU
 //			for(int i=0;i<=6;i++) {
@@ -452,240 +684,9 @@ public class printAnand {
 //				}
 //				
 				
-			/////////////////////////////////////////////////////////////////////////////////////////////////
-				void printRow(char ch, int i) {
-
-			        for(int j=0;j<=6;j++) {
-
-			        switch(ch) {
-
-			            case 'A': if(i==3 || ((j==0 || j==6)&&i!=0) || (i==0 && j!=0 && j!=6)) {
-							System.out.print("*");
-						}
-						else {
-							System.out.print(" ");
-						}; break;
-			            case 'B':  if(j == 0 || 
-						           (i == 0 && j != 6) || 
-						           (i == 3 && j != 6) || 
-						           (i == 6 && j != 6) || 
-						           (j == 6 && (i != 0 && i != 3 && i != 6))) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'C': if(j==0||i==0||i==6) {
-				            System.out.print("*");
-				        }
-			        else {
-			            System.out.print(" ");
-			        }; break;
-			            case 'D': if(j==0||(j==6&& i!=0 && i!=6)||((i==0 || i==6)&& j!=6)) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'E': if(j==0 ||i==0 || i==6 || i==3 &&( j!=6 && i!=6 && j!=6)) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'F':  if(j == 0 || 
-						           (i == 0 && j != 6) || 
-						           (i == 3 && j != 4&&  j!=5&& j!=6) ) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'H': if((j == 0 || j == 6  )|| i == 3) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'G':if(i == 0 
-					               || i == 6 
-					               || j == 0 
-					               || (i == 3 && j >= 3) 
-					               || (j == 6 && i >= 3)) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'I':  if((i == 0 || i== 6)|| j==3) 
-						 {
-							System.out.print("*");
-						} else 
-						  {
-							System.out.print(" ");
-						
-					      }; break;
-			            case 'J':  if((i == 0 || j==3||i==6 )&&(j!=4 &&j!=5 &&j!=6 || i==0) )
-						 {
-							System.out.print("*");
-						} else 
-						  {
-							System.out.print(" ");
-						
-					      }; break;
-			            case 'K':  if(j== 0  || i+j==3|| i-j==3)
-						 {
-							System.out.print("*");
-						} else 
-						  {
-							System.out.print(" ");
-						
-					      }; break;
-			            case 'L': 
-							 if(j== 0  ||i==6)
-							 {
-								System.out.print("*");
-							} else 
-							  {
-								System.out.print(" ");
-							
-						      }; break;
-			            case 'M': if(j== 0  ||j==6|| i==j &&i<=3 ||i+j==6 &&i<=3)
-						 {
-							System.out.print("*");
-						} else 
-						  {
-							System.out.print(" ");
-						
-					      }; break;
-			            case 'N':if(j==0||j==6||i==j) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'O': if(j==0||i==6||i==0||j==6) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'P': if(j == 0 || (i==0)||
-					            (i==3)||
-					          
-					          
-					           (j == 6 && ( i != 4 && i != 5 && i != 6)))  {
-						System.out.print("*");
-					}else {
-						System.out.print(" ");
-					
-				}; break;
-			            case 'Q': if(j == 0 || j == 6 || i == 0 || i == 6 || (i == j && i >= 4)) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'R': if(j == 0 
-						           || (i == 0 && j != 6) 
-						           || (i == 3 && j != 6) 
-						           || (j == 6 && i != 0 && i != 3 && i < 3) 
-						           || (i == j && i >= 3))  {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'S':if(i == 0 || i == 3 || i == 6 || (j == 0 && i < 3) || (j == 6 && i > 3)) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'T':  if((i == 0 )|| j==3) 
-						 {
-							System.out.print("*");
-						} else 
-						  {
-							System.out.print(" ");
-						
-					      }; break;
-			            case 'U':if((j == 0 || j == 6  )|| i == 6) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'V': if((i == j && i <= 3) || (i + j == 6 && i <= 3)) {
-				            System.out.print("*");
-				        }
-				        else if(i == 3 && j == 3) {
-				            System.out.print("*");
-				        }
-				        else {
-				            System.out.print(" ");
-				        }; break;
-			            case 'W':  if(j == 0 || j == 6 || (i >= 3 && i == j) || (i + j == 6 && i >= 3)) {
-				            System.out.print("*");
-				        }
-			        else {
-			            System.out.print(" ");
-			        }; break;
-			            case 'X':if(i+j==6||i==j) {
-							System.out.print("*");
-						}else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'Y':if((i == j && i <= 3) || (i + j == 6 && i <= 3) || (j == 3 && i >= 3)) {
-				            System.out.print("*");
-				        } 
-				       
-                       else {
-							System.out.print(" ");
-						
-					}; break;
-			            case 'Z':  if(i==0||i==6||j+i==6) {
-				            System.out.print("*");
-				        }
-			        else {
-			            System.out.print(" ");
-			        }; break;
-
-			            default:
-			                System.out.println("Character not supported");
-			        }
-			        
-			        }
-			        System.out.print("  ");
-
-			   
-			}
-			
-				public static void main(String[] args) {	
-					Scanner sc = new Scanner(System.in);
-				    printAnand obj = new printAnand();
-
-				    System.out.println("Enter your name:");
-				    String name = sc.nextLine().toUpperCase();
-
-				    for(int i=0;i<=6;i++) {
-
-				        for(char ch : name.toCharArray()) {
-
-				            obj.printRow(ch, i);
-
-				        }
-
-				        System.out.println();
-				    }
-
-				    sc.close();
-				}
-				}
-				    
 					
 					
 	
+
 
 
